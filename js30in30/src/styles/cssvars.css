@@ -1,0 +1,33 @@
+
+:root {
+    --custom-color: #ffb52f;
+    --custom-padding: 10px;
+    --custom-blur: 0px;
+}
+
+.main-content {
+    width: 40rem;
+    margin: 50px auto;
+    font-size: 30px;
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+}
+
+h2 {
+    text-align: left;
+}
+
+.controls {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+img {
+    padding: var(--custom-padding);
+    background: var(--custom-color);
+    filter: blur(var(--custom-blur));
+}
+
+.highlight {
+    color: var(--custom-color);
+}

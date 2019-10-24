@@ -1,0 +1,41 @@
+
+
+body {
+    align-items: center;
+}
+
+.clock {
+    border: 19px solid black;
+    width: 40rem;
+    height: 40rem;
+    margin: 50px auto;
+    border-radius: 50%;
+}
+
+.clock-face {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.hand {
+    width: 1%;
+    left: 50%;
+    height: 49%;
+    top: 1%;
+    background: orange;
+    position: absolute;
+    transform-origin: bottom center;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand {
+    height: 35%;
+    top: 15%;
+}
+
+.minute-hand {
+    height: 45%;
+    top: 5%
+}
