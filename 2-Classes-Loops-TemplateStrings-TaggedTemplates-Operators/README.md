@@ -1,4 +1,4 @@
-# Day 3 - ES6: teamplateStrings, taggedTemplates, restSpreadOperations, additional JS methods, loops, iterables, promises, classes
+# ES6: teamplateStrings, taggedTemplates, restSpreadOperations, additional JS methods, loops, iterables, promises, classes
 
 ## Topics covered: 
 ### 1) Classes
