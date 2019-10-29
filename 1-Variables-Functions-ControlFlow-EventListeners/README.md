@@ -83,10 +83,10 @@ function multiply(x, y) {
     // Now lets look at arrow functions with some built-in JS methods 
     const ages = [23,62,45,234,2,62,234,62,34];
 
-    // Now console.log the ages which are greater than 62 - we will use the method 
-    .filter() which creates a new array from an existing one 
+    // Now console.log the ages which are greater than 60 - we will use the method 
+    //.filter() which creates a new array from an existing one 
     // this basically means that if age is greater than 60, then add it to the old array 
-    const old = ages.filter(age => age >= 60);
+    const old = ages.filter(age => age > 60);
     console.log('The ages above 60 are: ',old);
 ```
 - Arrow function can either have a 'concise' body or the the usual block body. In a concise body, only an expression is specified, which becomes the implicit return value. You don't need to use a return statement 
