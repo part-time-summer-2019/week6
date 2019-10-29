@@ -1,4 +1,4 @@
-# Day 4 - Devtools, Destructuring, Async-Await, Proxies 
+# Devtools, Destructuring, Async-Await, Proxies 
 
 ## Topics Covered
 ### 1) Devtools
