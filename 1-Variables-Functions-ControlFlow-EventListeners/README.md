@@ -174,6 +174,9 @@ for (const prop in obj) {
 
 ### 4) Event Listeners / getElementById
 
+[Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+Events are a powerful mechanism of firing code in response to asynchronous `occurances` that might occur on a webpage. These occurances could be a user clicking a button, a browser window being resized, a page reloaded, a form submitted etc.
+
 [document.querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 - The Document method querySelector() returns the first Element within the document that matches the specified selector, or group of selectors.
 - In the example below, in this example, the first element in the document with the class "myclass" is returned
