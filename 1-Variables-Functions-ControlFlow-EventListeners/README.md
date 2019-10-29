@@ -1,4 +1,4 @@
-# DAY 2 - ES6: Variables, Functions, Control Flow, Event Listeners
+# ES6: Variables, Functions, Control Flow, Event Listeners
 
 ## Topics covered: 
 ### 1) Variables
