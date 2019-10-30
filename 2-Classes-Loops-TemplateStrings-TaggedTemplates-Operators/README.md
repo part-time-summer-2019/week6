@@ -1,6 +1,10 @@
-# ES6: teamplateStrings, taggedTemplates, restSpreadOperations, additional JS methods, loops, iterables, promises, classes
+# ES6: Objects, Classes teamplateStrings, taggedTemplates, restSpreadOperations, additional JS methods, loops, iterables, promises
 
 ## Topics covered: 
+
+### 0) Objects
+[Javascript Object Model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
+
 ### 1) Classes
 
 [Class Basics](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
