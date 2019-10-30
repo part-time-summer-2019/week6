@@ -1,9 +1,12 @@
-# ES6: Objects, Classes teamplateStrings, taggedTemplates, restSpreadOperations, additional JS methods, loops, iterables, promises
+# ES6: Objects, Classes, taggedTemplates, restSpreadOperations, additional JS methods, loops, iterables, promises
 
 ## Topics covered: 
 
 ### 0) Objects
+
 [Javascript Object Model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
+ - A prototype-based language, such as JavaScript, does not make any distinction between classes and objects: it simply has objects. A prototype-based language has the notion of a prototypical object, an object used as a template from which to get the initial properties for a new object. Any object can specify its own properties, either when you create it or at run time. In addition, any object can be associated as the prototype for another object, allowing the second object to share the first object's properties.
+
 
 ### 1) Classes
 
