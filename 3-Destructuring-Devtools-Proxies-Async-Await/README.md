@@ -1,4 +1,4 @@
-# Devtools, Destructuring, Async-Await, Import/Export 
+# Devtools, Destructuring, Async-Await, Import/Export, Event Loop 
 
 ## Topics Covered
 ### 1) Devtools
@@ -97,4 +97,9 @@ Javascript code can and should not all be written in one file. Instead code shou
 - As a counterpart to the export, code that is exported can also be imported in other Javascript files
 - Items (functions, variables, classes) can be imported, renamed via imports, and used.
 
+### 5) Event Loop
+[Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+
+- All code in Javascript is executed within the context of an event loop. 
+- Shows how concurrency can be achieved in Javascript using the asynchronous, never blocking model of execution provided by the event loop.
 
