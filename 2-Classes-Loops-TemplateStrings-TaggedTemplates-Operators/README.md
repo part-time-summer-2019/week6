@@ -5,12 +5,15 @@
 ### 0) Objects
 
 [Javascript Object Model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
- - A prototype-based language, such as JavaScript, does not make any distinction between classes and objects: it simply has objects. A prototype-based language has the notion of a prototypical object, an object used as a template from which to get the initial properties for a new object. Any object can specify its own properties, either when you create it or at run time. In addition, any object can be associated as the prototype for another object, allowing the second object to share the first object's properties.
+ - A prototype-based language, such as JavaScript, does not make any distinction between classes and objects: it simply has objects. A prototype-based language has the notion of a prototypical object, an object used as a template from which to get the initial properties for a new object. Any object can specify its own additional properties, either when you create it or at run time. In addition, any object can be associated as the prototype for another object, allowing the second object to share the first object's properties.
 
 
 ### 1) Classes
 
 [Class Basics](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
+`JavaScript classes, introduced in ECMAScript 2015, are primarily syntactical sugar over JavaScript's existing prototype-based inheritance. The class syntax does not introduce a new object-oriented inheritance model to JavaScript.`
+
 - Classes are in fact "special functions", and just as you can define function expressions and function declarations, the class syntax has two components: class expressions and class declarations.
 - One way to define a class is using a class declaration. To declare a class, you use the `class` keyword with the name of the class ("Rectangle" here).
 ```javascript
@@ -293,6 +296,8 @@ Use the code below as a reference for the following topics
 - Essentially, a promise is a returned object to which you attach callbacks, instead of passing callbacks into a function.
 - Promises are often used when you are calling a JSON API or making an AJAX call 
 - Promise constructor takes a function as an argument of the variable resolve and reject 
+
+See [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 
 [Resolve](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve)
 - The Promise.resolve() method returns a Promise object that is resolved with a given value. If the value is a promise, that promise is returned; if the value is a thenable (i.e. has a "then" method), the returned promise will "follow" that thenable, adopting its eventual state; otherwise the returned promise will be fulfilled with the value.

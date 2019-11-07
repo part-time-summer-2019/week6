@@ -1,4 +1,4 @@
-# Devtools, Destructuring, Async-Await, Proxies 
+# Devtools, Destructuring, Async-Await, Import/Export 
 
 ## Topics Covered
 ### 1) Devtools
@@ -86,13 +86,15 @@ async function hello() {
 hello().then(alert);
 ```
 
-### 4) Proxies 
-[What are Proxies?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
-- The Proxy object is used to define custom behavior for fundamental operations (e.g. property lookup, assignment, enumeration, function invocation, etc).
+### 4) Imports and Exports
+Javascript code can and should not all be written in one file. Instead code should be split up into multiple files with each file holding a logical section of code together. The code written in different files can then be `export`ed for use in other files that would them `import` them in.
 
-[Handlers, Traps, and Targets](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#Terminology)
-- A handler is a placeholder object which contains traps
-- Traps are the methods that provide property access. Examples include get and set 
-- Targets are the object which the proxy virtualizes.  It is often used as storage backend for the proxy. 
+[Export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export)
+- Javascript code can be written in different files (modules)
+- Items (functions, variables, classes) in these files can be exported for use by code in other files
+
+[Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+- As a counterpart to the export, code that is exported can also be imported in other Javascript files
+- Items (functions, variables, classes) can be imported, renamed via imports, and used.
 
 
